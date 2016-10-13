@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import store from '../store/todoStore';
 import {addTodo, completeTodo, deleteTodo, clearTodo,} from '../actions/actions';
+
 class ToDoForm extends Component {
   constructor(props) {
     super(props)

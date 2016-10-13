@@ -1,4 +1,9 @@
-let todoAppReducer = function todoApp(state, action) {
+let initalState = {
+  todo: {
+    items: []
+  }
+};
+let todoAppReducer = function todoApp(state = initalState, action) {
   switch (action.type) {
     case 'ADD':
       var items = [].concat(state.todo.items);

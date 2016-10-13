@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 const mapStateToProps = (state) => {
   return {
-    value: state
+    value: state.CounterReducer
   };
 }
 
